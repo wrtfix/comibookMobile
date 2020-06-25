@@ -8,6 +8,7 @@
         Equipo OneMoreCode
     </author>
     <content src="index.html" />
+	<preference name="phonegap-version" value="cli-8.0.0" />
     <plugin name="cordova-plugin-whitelist" spec="1" />
     <access origin="*" />
     <allow-intent href="http://*/*" />
