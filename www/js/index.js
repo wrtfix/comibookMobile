@@ -28,7 +28,7 @@ var app = {
     // 'pause', 'resume', etc.
     onDeviceReady: function() {
         this.receivedEvent('deviceready');
-        var ref = window.open('http://qa.onemorecode.com/', '_self', 'location=no,hideurlbar=yes,hidenavigationbuttons=yes,toolbar=no,clearsessioncache=yes,clearcache=yes');
+        var ref = window.open('http://qa.onemorecode.com/', '_self', 'location=no,hideurlbar=yes,hidenavigationbuttons=yes,toolbar=no,clearsessioncache=yes,clearcache=yes,zoom=no');
     },
 
     // Update DOM on a Received Event
